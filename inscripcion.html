@@ -1,0 +1,73 @@
+<!--
+Autor: Salazar Apaolaza, Izaskun 
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - Sitio web 
+Reflexión:https://docs.google.com/document/d/1wx1sPHVnualOtXCz6QxJnx-Yryur_Y08YdUbfu0NLIc/edit?usp=sharing
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia Lindy Hop</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!--Encabezado de la página. Posicionamiento absoluto-->
+  <header>
+    <img src="../img/logo.png" alt="Lindy Hop" class="logo">
+    <h1>Lindy Hop Center</h1>
+  <!--Menu de navegacion. Con flexbox -->
+    <nav>
+    <ul>
+      <li><a href="../paginas/index.html">Inicio</a></li>
+      <li><a href="../paginas/noticias.html">Noticias</a></li>
+      <li><a href="../paginas/talleres.html">Talleres</a></li>
+      <li><a href="../paginas/inscripcion.html">Inscripcion</a></li>
+    </ul>
+    
+    </nav>
+  </header>
+  <!--Bloque principal. Float para imagen e inline-block para articulos-->
+  <main>
+<main>
+<section>
+    <h2>Formulario de inscripcion</h2>
+    <article>
+      <!--Formulario-->
+      <form id="form" action="index.html" method="get">
+        <!--Conjunto de elementos -->
+        <fieldset>
+          <legend><h3>Inscripción talleres</h3></legend>
+          <!--Nombre -->
+          <label>Nombre:</label><br>
+          <input type="text" id="fnamenom1" name="nombre1" value="nombre"><br>
+          <!--Apellido-->
+          <label>Apellido:</label><br>
+          <input type="text" id="fnameape1" name="apellido1" value="apellido"><br>
+          <!--Elige taller-->
+          <label> Elige taller</label><br>
+          <select id="tall1" name="taller">
+            <option value="Danza" Danza:Lindy Hop></option>
+            <option value="Música" Música: Swing></option>
+          </select>
+          <!--Botón -->
+          <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+    </article>
+  </section>
+</main> 
+  <!-- Pie de página-->
+  <footer>
+    <p> 2025 Lindy Hop Center</p>
+    <p> Donosti center@lindyhop.com</p>
+  </footer>
+  <!--Bloque accesorio para ir al inicio. Posicionamiento fixed-->
+  <aside> 
+    <a href="#inicio" Volver al inicio></a> 
+  </aside>
+</body>
+</html>
